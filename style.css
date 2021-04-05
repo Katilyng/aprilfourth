@@ -1,0 +1,219 @@
+body{
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif; 
+    float: right;
+    color: dimgray;
+}
+ .column {
+    float: left;
+    width: 50%;
+    }
+
+.navbartop {
+    float: right;
+}
+.images {
+    padding 5px;
+}
+.main-heading{
+    background: darkseagreen;
+    height: 50px;
+    width: 100%;
+}
+.name {
+    color: floralwhite;
+    font-size: 10px;
+    
+}
+.footer {
+    width: 100%;
+    height: 50px;
+}
+p {
+    color: dimgray;
+    padding: 10px;
+    text-align: left;
+}
+.li {
+    color: dimgray;
+}
+h1 {
+    padding-left: 5px;
+}
+h3 {
+    color: dimgray;
+}
+
+a:link {
+    color: black;
+    
+}
+a:visited {
+    color: green;
+}
+}
+, *:before, *:after, {
+    box-sizing: inherit;
+}
+
+.fling-minislide {
+    width: 350px; 
+    height: 300px; 
+    overflow:hidden; 
+    position:relative; }
+
+
+.fling-minislide img{ 
+    position:absolute;
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: 100%;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+@media only screen and (min-width: 300px) {
+    
+
+    p{ 
+
+        max-width: 400px;
+        font-size: 8px;
+        line-height: 1.6;
+        
+    }
+h3 { 
+    
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+    .name {
+        margin-top: -45px;
+
+    }
+    .navbarbottom {
+
+    }
+ul{
+    font-size: 8px;
+    text-align: left;
+    margin-left: -30px;
+}
+    .fling-minislide {
+        margin-left: 80px;
+    }
+
+    .images {
+        margin-left: 80px;
+
+    }
+.fling-minislide {
+    margin-left: 20px;
+    }
+.navbartop{
+    font-size: 10px;
+    margin-top: -25px;
+    
+}
+
+.footer{
+    background: darkseagreen;
+    font-size: 15px;
+    color: floralwhite;
+    width: 100%;
+    height: 50px;
+}
+    @media only screen and (min-width: 500px) {
+        p {
+            font-size: 12px;
+    
+        }
+    }
+    @media only screen and (min-width: 700px) {
+        p {
+            max-width: 600px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        ul { 
+            font-size: 15px;
+            
+        }
+        h3 { 
+            font-size: 20px;  
+        }
+        .fling-minislide {
+            margin-left: 150px;
+        }
+        .main-heading {
+            height: 75px;
+        }
+        .name {
+            font-size: 15px;
+            margin-top: -75px;
+        }
+        .navbartop {
+            font-size: 15px;
+            margin-right: 5px;
+        }
+    }
+
+@media only screen and (min-width: 1000px) {
+    p{
+        font-size: 20px;
+        max-width: 800px;
+        line-height: 1.6;
+
+    }
+    li{
+
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .images {
+        margin-left: 250px;
+    }
+    
+    .fling-minislide {
+            margin-left: 325px;
+        }
+    .navbartop {
+        font-size: 20px;
+        margin-top: -45px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    h3 {
+        font-size: 36px;  
+    }
+        
+    p {
+        max-width: 900px;
+    }
+    .fling-minislide {
+    width: 450px; 
+    height: 400px; 
+    overflow:hidden; 
+    position:relative; }
+}
+@media only screen and (min-width: 1200px) {
+
+    
+    h3 {
+
+    }
+    p {
+        max-width: 850px;
+    }
+}
